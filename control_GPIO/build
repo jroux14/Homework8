@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Exploring BeagleBone - Building the myApp application"
+g++ -o control_GPIO GPIO.cpp control_GPIO.cpp
+echo "Finished"
