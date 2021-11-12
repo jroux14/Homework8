@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Building the test_analog application"
+g++ -o test_analog test_analog.cpp analogIn.cpp
+echo "Finished"
+
